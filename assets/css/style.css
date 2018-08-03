@@ -1,10 +1,27 @@
+@font-face {
+    font-family: 'Backwoods';
+    src: url(../Fonts/akaPosse.ttf) format("opentype");
+}
+
+body {
+    background: #53a65d;
+    font-family: 'Backwoods';
+    color: #ee3425;
+    text-shadow: 2px 2px 0px #ffffff;
+}
+
 header {
     border: 2px solid black;
     height: 100px;
     width: 75%;
     text-align: center;
     margin: 15px auto;
-    padding: 30px;
+    padding: 35px;
+    font-size: 50px;
+}
+
+h1{
+    margin-bottom: 20px;
 }
 
 .underscore {
@@ -22,7 +39,7 @@ header {
     text-align: center;
     margin: 15px auto;
     padding: 30px;
-    font-size: 21;
+    font-size: 40px;
 }
 
 .roaches {
@@ -31,5 +48,5 @@ header {
     text-align: center;
     margin: 15px auto;
     padding: 30px;
-    font-size: 21;
+    font-size: 40px;
 }
